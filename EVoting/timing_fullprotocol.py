@@ -34,7 +34,7 @@ def run_protocol_once():
     h = 3
     ped = Pedersen(p, g, h)
 
-    messages = [5, 15, 25, 35, 45]
+    messages = [1] # Add more nums using commas to commit and shuffle more messages
     inputs = []
     input_openings = []
 
